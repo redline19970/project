@@ -1,0 +1,103 @@
+.class1 {
+    color: white;
+}
+
+.class2{
+    position: absolute;
+    right: 480px;
+    top: 823px;
+}
+
+.class3{
+    position:absolute;
+    top:880px;
+}
+
+.class4{
+    position: absolute;
+    left: 650px;
+    top: 3px;
+}
+
+.class5{
+    position: absolute;
+    left: 650px;
+    top: 1740px;
+}
+
+.class6{
+    position: absolute;
+    height: 50px;
+    top: 1840px;
+    left: 300px;
+}
+
+
+
+
+.class8{
+    position:absolute;
+    top:2214px;
+    left: 540px;
+}
+
+
+.class9{
+    position: absolute;
+    top: 2280px;
+    right: 840px ;
+}
+
+.class10{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.class11{
+    position: absolute;
+    top: 3130px;
+    left: 360px;
+}
+
+
+.class12{
+   position:absolute;
+    top: 3123px;
+    left: 380px;
+}
+
+.class13{
+    position: absolute;
+    top: 3130px;
+    left: 620px;
+}
+
+.class14{
+    position:absolute;
+    top: 3123px;
+    left: 640px;
+}
+
+
+
+.class15{
+    position: absolute;
+    top: 3130px;
+    left: 880px;
+}
+
+
+.class16{
+    position:absolute;
+    top: 3123px;
+    left: 900px;
+}
+
+.class17{
+    position: absolute;
+    top: 3160px;
+    right: 572px ;
+}

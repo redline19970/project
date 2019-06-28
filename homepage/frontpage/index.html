@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Reklamim">
+    <meta name="author" content="Redi Ramaj Xhensila Bushi Elda Binaj">
+
+  <title>Front Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="css/resume.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            width: 100vw;
+            overflow-y: hidden;
+        }
+    </style>
+   
+</head>
+
+<body id="page-top"  >
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" >
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none"></span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#emertimi" >Kredencialet e biznesit</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#kategorite">Kategorite e marketingut</a>
+        </li>
+		
+		
+		<li class="nav-item">
+          <a class="  nav-link js-scroll-trigger " href="#webb"  style="display: none;" id="link1">Emertimi Faqes Web </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger " href="#stilimi"  style="display: none;" id="link2">Stilimi faqes</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#perfundim" >Perfundo</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" >
+      <div class="w-100">
+        <h1 class="text-primary">MIRESEVINI</h1>
+        <p class="lead mb-5">Kjo eshte faqja juaj personale per krijimin dhe stilimin e faqes suaj, si dhe perzgjedhjen e fushes se marketingut sipas deshires suaj.</p>
+          <button class ="btn btn-primary" > <a id= "001" class="nav-link js-scroll-trigger class1"  href="#emertimi"  > Vazhdoni me poshte</a></button>
+      </div>
+    </section>
+
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="emertimi">
+      <div class="w-100">
+        <h2 class="mb-5">Emertimi</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Vendosni emrin e biznesit tuaj: </h3>
+            <label for="text1"></label><input type="text" class="class2" id="text1"/>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content class3">
+            <div class="subheading mb-3">Vendosni te dhenat qe doni te theksoni ne reklamimin e biznesit tuaj (Opsionale): </div>
+            <label>
+              <input type="text" class="class4"/>
+            </label>
+            <button class ="btn btn-primary" onmouseover="overr()" id="1111" > <a class="nav-link js-scroll-trigger class1 disabled"   href="#kategorite"  id="sample_id1"> Vazhdoni me poshte</a></button>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	 <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="kategorite">
+      <div class="w-100">
+        <h2 class="mb-5">Marketingu</h2>
+
+        <div class="subheading mb-3">Zgjidhni nje prej kategorive te marketingut te cilat deshironi te reklamoni biznesin tuaj.</div>
+        <label >
+          <input type="checkbox" onclick="total1()" >
+        </label> Media Televizive <br>
+        <label>
+          <input type="checkbox" onclick="total2()">
+        </label>Radio<br>
+        <label>
+          <input type="checkbox" onclick="total3()">
+        </label>Billboards<br>
+        <label>
+          <input type="checkbox" onclick="total4()">
+        </label>Gazeta<br>
+        <label>
+          <input type="checkbox" onclick="total5()" >
+        </label> Revista<br>
+        <label>
+          <input type="checkbox" onclick="total6()" id="check_6">
+        </label>Media Dixhitale <button onclick="tot()" style="display: none" class="btn btn-info class5" id="btn_1">Zbulo me shume!</button>
+          <button class ="btn btn-primary class6"   ><a  class="nav-link js-scroll-trigger class1"  href="#perfundim" id="id_03" > Vazhdoni me poshte</a></button>
+        </div>
+    </section>
+	
+	
+	
+	<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="webb">
+      <div class="w-100 " style="display: none;"   id="webi">
+        <h2 class="subheading mb-5">Sherbimi ekstra qe ofrojme eshte krijimi i nje faqeje web per reklamimin e tij ne boten dixhitale. Do te fillojme me krijimin e adreses domain te faqes, me pas zgjedhjen e nje prej template per dizanjnin e faqes. Shikoni me poshte kerkesat e ofruara: </h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0" >Vendosni emrin e website qe do te krijoni:</h3>
+          
+       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content" >
+            <div class="subheading mb-3">Vendosni nje emer sipas kategorise se biznesit tuaj prsh <span class="text-primary"><b>"farmaciaime:"</b></span></div>
+            <label>
+              <input type="text" id="text2" />
+            </label>
+            <div class="text-primary mb-3 class8" >@mybusiness.com</div>
+            <button  class="btn btn-primary class9" id="11111" onmouseover="overr1()" ><a class="nav-link js-scroll-trigger class1 disabled"  href="#stilimi"  id="sample_id2"> Vazhdoni me poshte</a></button>
+
+      </div>
+       </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	
+	<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="stilimi"  >
+      <div class="w-100"  style="display: none;" id="stili">
+        <h2 class="mb-5">Stilimi i website</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Ne ju ofrojme template-s per kategorine e biznesit te cilit ju mund ti perkisni</h3>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+		 <nav class="navbar navbar-expand-lg navbar-light  py-3" id="mainNav">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <button class="class10" onmouseover="show_1()"> EKONOMI</button>
+          </li>
+          <li class="nav-item">
+            <button class="class10" onmouseover="show_2()"> MJEKESI</button>
+          </li>
+		  <li class="nav-item">
+            <button class="class10"  onmouseover="show_3()"> INXHINIERI</button>
+          </li>
+          <li class="nav-item">
+           <button class="class10" onmouseover="show_4()"> TEKNOLOGJI</button>
+          </li>
+		     <li class="nav-item">
+             <button class="class10" onmouseover="show_5()"> ARIZANAL</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <img style="position: absolute; top: 2950px; left: 360px; display: none;" id="screen"    alt="" src="img/foto/mjeksi/photo1.jpg"/>
+  <img style="position: absolute; top: 2950px; left: 360px; display: none;"   id="screen1"  alt="" src="img/foto/artizanal/photo1.jpg" />
+  <img style="position: absolute; top: 2950px; left: 360px; display: none;"  id="screen2"   alt="" src="img/foto/ekonomi/photo1.jpg" />
+  <img style="position: absolute; top: 2950px; left: 360px; display: none; "  id="screen3"   alt="" src="img/foto/teknologji/photo1.jpg" />
+  <img style="position: absolute; top: 2950px; left: 360px; display: none;"  id="screen4"   alt="" src="img/foto/inxhinieri/photo1.jpg" />
+   <img style="position: absolute; top: 2945px; left: 620px; display: none;" id="theme"  alt="" src="img/foto/mjeksi/photo2.jpg"  />
+   <img style="position: absolute; top: 2945px; left: 620px; display: none;" id="theme1"  alt="" src="img/foto/artizanal/photo2.jpg"  />
+   <img style="position: absolute; top: 2945px; left: 620px; display: none;" id="theme2"  alt="" src="img/foto/ekonomi/photo2.jpg"  />
+   <img style="position: absolute; top: 2945px; left: 620px; display: none;" id="theme3"  alt="" src="img/foto/teknologji/photo2.jpg"  />
+   <img style="position: absolute; top: 2945px; left: 620px; display: none;" id="theme4"  alt="" src="img/foto/inxhinieri/photo2.jpg"  />
+   <img style="position: absolute; top: 2945px; left: 880px; display: none;" id="picture"   alt="" src="img/foto/mjeksi/photo3.jpg" />
+   <img style="position: absolute; top: 2945px; left: 880px; display: none;" id="picture1"   alt="" src="img/foto/artizanal/photo3.jpg" />
+   <img style="position: absolute; top: 2945px; left: 880px; display: none;" id="picture2"   alt="" src="img/foto/ekonomi/photo3.jpg" />
+   <img style="position: absolute; top: 2945px; left: 880px; display: none;" id="picture3"   alt="" src="img/foto/teknologji/photo3.jpg" />
+   <img style="position: absolute; top: 2945px; left: 880px; display: none;" id="picture4"   alt="" src="img/foto/inxhinieri/photo3.jpg" />
+
+          <label>
+            <input type="checkbox" class="class11" id="check_1" onclick="try1()">
+            <label class="class12">Zgjidh kete</label>
+
+            <label>
+              <input type="checkbox" class="class13" id="check_2" onclick="try2()">
+            </label>
+            <label class="class14">Zgjidh kete</label>
+
+
+            <label>
+              <input  type="checkbox" class="class15" id="check_3" onclick="try3()">
+            </label>
+            <label class="class16">Zgjidh kete</label>
+          </label>
+            <button class="btn btn-primary class17"  disabled id="check_4" ><a class="nav-link js-scroll-trigger class1 disabled"  href="#perfundim" id="sample_id" > Vazhdoni me poshte</a></button>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center"  id="perfundim">
+          <div class="w-100">
+              <p class="lead mb-5">Zgjedhjet tuaja ishin: </p>
+              <p  id="fst_1" style="display: none;"> Media televizive: Kosto mujore: 30$  <i style="display: none;"  class="fa fa-check" aria-hidden="true"></i></p>
+              <p id="fst_2" style="display: none;"> Radio: Kosto mujore: 10$ <i style="display: none;"  class="fa fa-check" aria-hidden="true"></i></p>
+              <p id="fst_3" style="display: none;">Billboards: Kosto mujore: 35$ <i style="display: none;"  class="fa fa-check" aria-hidden="true"></i></p>
+              <p id="fst_4" style="display: none;"> Gazeta: Kosto mujore: 7$ <i style="display: none;"  class="fa fa-check" aria-hidden="true"></i></p>
+              <p id="fst_5" style="display: none;"> Revista: Kosto mujore: 10$ <i style="display: none;"  class="fa fa-check" aria-hidden="true"></i></p>
+              <p id="fst_6" style="display: none;"> Media Dixhitale: Kosto mujore: 160$ <i style="display: none;"  class="fa fa-check" aria-hidden="true"></i></p>
+
+              <button  class="btn btn-info" data-toggle="modal" data-target="#myModal">Perfundo!</button>
+
+              <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+              <div class="modal-content" >
+                  <div class="modal-body">
+                      <p>Jeni i sigurte qe doni te perfundoni?</p>
+                      <button  class="btn btn-info d-inline-block"  onclick="redirect()">Po?</button>
+                      <button  class="btn btn-danger" data-dismiss="modal">Jo?</button>
+                  </div>
+              </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+
+
+
+
+
+
+    
+
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/resume.min.js"></script>
+  <script src="js/test.js"></script>
+  <script src="js/test1.js"></script>
+  <script src="js/test2.js"></script>
+  <script src="js/test3.js"></script>
+  <script src="js/test4.js"></script>
+  <script src="js/test5.js"></script>
+  <script src="js/test6.js"></script>
+  <script src="js/trial.js"></script>
+  <script src="js/trial1.js"></script>
+  <script src="js/final.js"></script>
+
+
+
+
+  
+</body>
+
+</html>
